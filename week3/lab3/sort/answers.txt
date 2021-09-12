@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: Sort1 showed the longest test time when performed on random10000 and random50000 which according to the video shown during the lecture is the slowest type of sort with big O of n^2. Also it had the quickest running time for sorted50000, this indicates big omega of n which is a characteristic of bubble sort.
+
+sort2 uses: Merge sort
+
+How do you know?: Sort1 showed the shortest test time when performed on random10000 and random50000 which according to the lecture (video clip comparison at the end) and big O of nlogn is a characteristic of merge sort. Also it was slower on test sorted50000 than sort1 which I think is bubble sort. It shows that sort1 has the big omega of n, and sort2 is not that behind in running time with big omega of nlogn.
+
+sort3 uses: Selection sort
+
+How do you know?: Sort3 test times on random10000 and random50000 where somewhere in the middle between sort 1 and sort2 (big O of n^2) and also test on sorted50000 showed a marginally longer test time than the others (big omega of n^2).

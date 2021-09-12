@@ -1,0 +1,25 @@
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table
+{
+    border: 5px solid blue;
+}
+
+tr
+{
+    height: 50px;
+}
+
+td
+{
+    /* Main parameters are defined here */
+    background-color: black;
+    color: white;
+    font-size: 22pt;
+    font-family: georgia;
+    text-align: center;
+    width: 50px;
+}

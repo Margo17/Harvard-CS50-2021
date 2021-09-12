@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Work hard, Play later",
+    "version": "0.0.3",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ],
+    "icons": { "64": "portfolio64.png", "128": "portfolio128.png" },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "Work hard, Play later"
+  }
+}
