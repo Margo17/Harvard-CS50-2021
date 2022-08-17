@@ -1,7 +1,5 @@
 # Harvard-CS50-2021
 
----
-
 Here included are all the programs and a personal final project written during the CS50 course.
 
 ## About
